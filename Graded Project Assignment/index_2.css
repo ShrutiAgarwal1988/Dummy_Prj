@@ -1,0 +1,22 @@
+body{
+width:100%;
+height:100%;
+background-color: grey;
+object-fit: contain;
+place-content : center;
+}
+input{
+width:300px;
+object-position: center;
+place-content : center;
+vertical-align: middle;
+}
+button{
+    left: 80%;
+width:80px;
+
+}
+#div-selector{
+    color:black;
+    text-align: center;
+}
