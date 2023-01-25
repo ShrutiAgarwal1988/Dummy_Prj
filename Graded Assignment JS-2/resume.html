@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Page</title>
+    <link rel="stylesheet" href="./index_2.css">
+    
+</head>
+<body>
+    <center>
+       
+        <input type="text" onkeyup="search_details()" class="searchbox" name="searchbox" placeholder="search for keywords to filter the resume">
+        &emsp; &emsp;
+        &emsp; &emsp;
+        &emsp; &emsp;
+        &emsp; &emsp;
+
+        <button type="button" value="handleNextItem" onclick="handleNextItem()">Next</button> 
+     
+        &emsp;
+            <button type="button" value="handlePreviousItem" onclick="handlePreviousItem()">Previous</button> 
+          <br>
+          <br>
+            <div class="resume-template">
+               <header>
+                <br> <div class="basics" id="mydata">John Doe</div><div>
+                    <img src="noun-profile-icon-638636.svg"></div><br><br>
+                <div class="basics" id ="basics" style="text-align:center;font-weight:bold;">AppliedFor:SoftwareEngineer</div>
+            </header>
+                <div class="side-box">
+                <div class="personal-info" id="personal-info">
+                    <h3 style="background-color: darkgray; text-align:center;">Personal Information</h3>
+                    <div >
+                        <p id="mydata1" style="text-align:right">Phone:<span>9999999999</span></p>
+                        <p id="mydata2" style="text-align:right">Email:<span>john@gmail.com</span></p>
+                        <p id="mydata3" style="text-align:right"><span><a href="https://linkedin.com/john">Linkedin</a></span></p>
+                        
+                    </div>
+                    </div><!--close of personal-info-->
+                </br>
+                    <div class="technical-info" id="technical-info">
+                        <h3 style="background-color: darkgray; text-align: center;">Technical Skills</h3>
+                        <div >
+                            <p id="mydata4" style="text-align:right">HTML</p>
+                            <p id="mydata5" style="text-align:right">CSS</p>
+                            <p id="mydata6" style="text-align:right">Javascript</p>
+                        </div>
+                        </div><!--close of technical-info-->
+                    </br>
+                        <div class="hobbies-info">
+                            <h3 style="background-color: darkgray; text-align: center;">Hobbies</h3>
+                            <div >
+                                <p id="mydata7" style="text-align:right">Wildlife</p>
+                                <p id="mydata8" style="text-align:right">Dance</p>
+                                <p id="mydata9" style="text-align:right">Workout</p>
+                            </div>
+                </div><!--close of hobbies-info-->
+                </div><!--close of side-box-->
+           
+           <div class="right-section">
+            <div class="work-info">
+                <h3>Work Experience in Previous Company</h3>
+                <div >
+                    <p id="mydata10">Company Name <span>Harman</span></p>
+                    <p id="mydata11" >Position  :<span>Associate Engineer</span></p>
+                    <p id="mydata12">Start Date  :<span>2013-01-01</span></p>
+                    <p id="mydata13">End Date  :<span>2014-01-01</span></p>
+                    <p id="mydata14">Summary</p>
+                    <p id="mydata15" style="text-align:justify;">Associate engineer with development, testing verification and validation experience on Car UI display systems.Performed phone projection development of user stories and testing with infotainment system such as Android auto ,Car playAnalyzed requirements , created test plans, executed test cases for connectivity epic such as C-connect, F-connect.Good at analyzing DLT logs and analyzing the code refactor areas.</p>
+                </div>
+            </div>
+            <div class="project-info">
+                <h3>Projects</h3>
+                <div>
+                    <p  id="mydata16">Name  :<span>Diabetic Retinopaty</span></p>
+                    <p id="mydata17">Description</p>
+                    <p id="mydata18" style="text-align:justify;">created a GUI using QT designer which will take image of retina as input, input image will be processed and compare with the images present in database and then classified as one of DR stage or normal.OpenCV and image processing concepts are used. survey paper on this project is publish in 2nd international conference on Topical Transcend in Science, Technology & Management.</p>
+                </div>
+            </div>
+            <div class="education-info">
+                <h3>Education</h3>
+                <div>
+                    <p id="mydata19">UG :<span>Sai Vidya Institute of Technology</span></p>
+                    <p id="mydata20">Senior Secondary :<span>Sai Vidya Institute of Technology</span></p>
+                    <p id="mydata21">High School :<span>Sai Vidya Institute of Technology</span></p>
+                </div>
+            </div>
+            <div class="intern-info">
+                <h3>Internship</h3>
+                <div >
+                    <p id="mydata22">Company Name :<span>IBM</span></p>
+                    <p id="mydata23">Position :<span>Intern</span></p>
+                    <p id="mydata24">Start Date :<span>2013-01-01</span></p>
+                    <p id="mydata25">End Date :<span>2014-01-01</span></p>
+                    <p id="mydata26" style="text-align:justify;">Summary :<span >Learned about Tools used for website testing such as Deep Trawl, NVDA, web developer extension, OpenVAS,Learned about the importance and concept of OWASP.Learned React JS and worked for Frontend development with professional.</span></p>
+                </div>
+            </div>
+            <div class="achievement-info">
+                <h3>Achievements</h3>
+                <div >
+                    <p id="mydata27" style="text-align:justify;">Attended 5 days industry orientation workshop organized by free software movement</p>
+                </div>
+            </div>   
+            </div><!--close of right-section-->
+        </div><!--close of resume template-->
+    </center>
+    
+</body>
+
+<script src="./index.js">
+</script>
+</html>
